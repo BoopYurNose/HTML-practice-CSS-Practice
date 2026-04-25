@@ -1,0 +1,13 @@
+h1{
+    border: 3px solid lightblue;
+    border-radius: 20px;
+}
+
+p{
+    border-bottom: 3px solid lightblue;
+    border-top: 3px solid orange;
+    border-left: 3px dotted red;
+    border-right: 3px solid pink;
+
+    border-radius: 10px;
+}
