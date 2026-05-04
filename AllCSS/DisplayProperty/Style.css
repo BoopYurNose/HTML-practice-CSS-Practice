@@ -4,8 +4,15 @@ body{
 
 div{
     background-color: red;
+    width: 100px;
+    height: 100px;
+    /*display: none;*/
+    visibility: block;
 }
 
 span{
     background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
 }
