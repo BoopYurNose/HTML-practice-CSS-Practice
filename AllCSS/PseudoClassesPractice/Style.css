@@ -1,0 +1,45 @@
+a:link{
+    color: hsl(156, 100%, 50%);
+}
+
+body{
+    background-color: gray;
+}
+
+a:hover{
+    color: lightblue;
+    font-size: 1.5em;
+}
+
+a:active{
+    color: orange;
+    font-size: 2em;
+}
+
+/*a:visited{ after user has clicked/visited this link it turns this color or does whatever action in the {} brackets
+    color: pink;
+}*/
+
+li:hover{
+    color: pink;
+    background-color: lightblue;
+}
+
+li:not(:hover){ /*anything that is not being hovered over*/
+    color: lightgreen;
+    background-color: blue;
+}
+
+li:nth-child(3){ /*selects specific list element by it's index value*/
+    background-color: purple;
+}
+
+#greeting p{
+    background-color: blue;
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p{
+    display: block;
+}
