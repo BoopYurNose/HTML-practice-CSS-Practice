@@ -11,10 +11,22 @@
             combinators = explains the relationship
                           between listed selectors
                             = descendants
-                          > = child
+                          > = child (like direct child to parent element)
                           ~ = general sibling
-                          + = adjacent sibling    
+                          + = adjacent sibling it is the element directly after/below the element specified in the CSS
+
+                          div > p
         -->
+            <div id = "container">
+                <p>This is #1</p>
+                <p>This is #2</p>
+                <div>
+                    <p>this is #3</p>
+                </div>
+            </div>
+
+            <p>this is #4</p>
+            <p>this is #5</p>
 
     </body>
 </html>
